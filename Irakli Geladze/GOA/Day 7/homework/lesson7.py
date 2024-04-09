@@ -1,0 +1,8 @@
+str = input("please enter string: ")
+int = int(input("please enter integer: "))
+float = float(input("please enter float: "))
+boolean = bool(input("please enter boolean: "))
+print(type(str))
+print(type(int))
+print(type(float))
+print(type(boolean))
