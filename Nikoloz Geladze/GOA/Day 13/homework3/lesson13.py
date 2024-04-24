@@ -10,4 +10,3 @@ elif grade == "D":
     print("You can do better.")
 else:
     print("You failed.")
-    

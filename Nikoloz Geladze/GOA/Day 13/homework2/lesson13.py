@@ -4,4 +4,3 @@ for i in range(5):
         print("your number is odd")
     else:
         print("your number is even")
-    
