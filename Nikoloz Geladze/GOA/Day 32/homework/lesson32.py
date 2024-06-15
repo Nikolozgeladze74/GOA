@@ -1,32 +1,3 @@
-#ყველამ შეასრულეთ classwork-ის ამოცანები:
-
-#ყველამ შეასრულეთ classwork-ის ამოცანები:
-
-#8 kyu:
-
-#https://www.codewars.com/kata/58649884a1659ed6cb000072
-#https://www.codewars.com/kata/58cb43f4256836ed95000f97
-#https://www.codewars.com/kata/5704aea738428f4d30000914
-
-#7kyu:
-
-#https://www.codewars.com/kata/583f158ea20cfcbeb400000a
-#https://www.codewars.com/kata/56b7f2f3f18876033f000307
-#https://www.codewars.com/kata/56e9e4f516bcaa8d4f001763
-
-#6kyu:
-
-#https://www.codewars.com/kata/52b757663a95b11b3d00062d
-#https://www.codewars.com/kata/569d488d61b812a0f7000015
-
-
-
-
-
-
-
-
-
 #1
 def update_light(current):
     if current == "green":
@@ -78,3 +49,19 @@ def in_asc_order(arr):
             return False
         min = n
     return True
+
+#6
+def no_odds(values):
+    list = []
+    for i in values:
+        if i%2==0:
+            list.append(i)
+    return list
+
+#7
+def number_of_occurrences(element, sample):
+    total = 0
+    for i in sample:
+        if element == i:
+            total += 1
+    return total
